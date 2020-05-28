@@ -2,10 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05b06324-9cff-4bc2-8dd8-4fcb2e99ea34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/program/config/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lemon/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lemon/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lemon/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lemon/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lemon/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/api/AHelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/api/AHelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lemon/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/api/AHelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lemon/api/AHelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/api/CosClientApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lemon/api/CosClientApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/api/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lemon/api/HelloControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/api/UserApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/config/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lemon/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/entity/user.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/exception/BaseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/utils/COSClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lemon/utils/COSClientUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/utils/H.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lemon/utils/H.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/utils/NickNameUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lemon/utils/NickNameUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/utils/P.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lemon/utils/P.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/utils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lemon/utils/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lemon/utils/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/MainApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/api/AHelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/api/CosClientApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/api/HelloControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/api/UserApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/entity/user.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/exception/BaseException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/utils/COSClientUtil$ClientHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/utils/COSClientUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/utils/H.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/utils/NickNameUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/utils/P.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/utils/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/program/utils/StringUtil.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +117,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ssssssself\firstOne\ningMengDangYao\src\main\resources\mapper\sys" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="program.config" />
       <recent name="program.api" />
@@ -103,11 +142,11 @@
   </component>
   <component name="RunManager" selected="Application.CodeGenerator">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="program.config.CodeGenerator" />
+      <option name="MAIN_CLASS_NAME" value="lemon.CodeGenerator" />
       <module name="ningMengDangYao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="program.config.*" />
+          <option name="PATTERN" value="lemon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +197,24 @@
       <module name="ningMengDangYao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="program.*" />
+          <option name="PATTERN" value="lemon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="program.MainApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lemon.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ningMengDangYao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lemon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lemon.MainApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,7 +242,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -245,7 +297,7 @@
       <workItem from="1589954192514" duration="4406000" />
       <workItem from="1590023559735" duration="760000" />
       <workItem from="1590132330283" duration="598000" />
-      <workItem from="1590653245430" duration="4052000" />
+      <workItem from="1590653245430" duration="6055000" />
     </task>
     <task id="LOCAL-00001" summary="v1">
       <created>1590131594673</created>
@@ -275,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590657104472</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="代码生成器v1">
+      <created>1590658989457</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590658989457</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +345,8 @@
     <MESSAGE value="v2" />
     <MESSAGE value="删除多余的内容" />
     <MESSAGE value="连接上了云数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="连接上了云数据库" />
+    <MESSAGE value="代码生成器v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码生成器v1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="514" y="199" key="#Project_Structure" timestamp="1588143998881">
@@ -309,46 +369,46 @@
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
     <state x="677" y="401" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1845.1080@0.0.1845.1080" timestamp="1586944268160" />
-    <state x="483" y="132" key="CommitChangelistDialog2" timestamp="1590657102054">
+    <state x="483" y="132" key="CommitChangelistDialog2" timestamp="1590660853620">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state x="483" y="132" key="CommitChangelistDialog2/0.0.1845.1080@0.0.1845.1080" timestamp="1590657102054" />
+    <state x="483" y="132" key="CommitChangelistDialog2/0.0.1845.1080@0.0.1845.1080" timestamp="1590660853620" />
     <state x="1170" y="295" key="FileChooserDialogImpl" timestamp="1590037666469">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
     <state x="1170" y="295" key="FileChooserDialogImpl/0.0.1845.1080@0.0.1845.1080" timestamp="1590037666469" />
-    <state width="1802" height="272" key="GridCell.Tab.0.bottom" timestamp="1590658958124">
+    <state width="1802" height="272" key="GridCell.Tab.0.bottom" timestamp="1590660216257">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1802" height="272" key="GridCell.Tab.0.bottom/0.0.1845.1080@0.0.1845.1080" timestamp="1590658958124" />
-    <state width="1802" height="272" key="GridCell.Tab.0.center" timestamp="1590658958124">
+    <state width="1802" height="272" key="GridCell.Tab.0.bottom/0.0.1845.1080@0.0.1845.1080" timestamp="1590660216257" />
+    <state width="1802" height="272" key="GridCell.Tab.0.center" timestamp="1590660216257">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1802" height="272" key="GridCell.Tab.0.center/0.0.1845.1080@0.0.1845.1080" timestamp="1590658958124" />
-    <state width="1802" height="272" key="GridCell.Tab.0.left" timestamp="1590658958124">
+    <state width="1802" height="272" key="GridCell.Tab.0.center/0.0.1845.1080@0.0.1845.1080" timestamp="1590660216257" />
+    <state width="1802" height="272" key="GridCell.Tab.0.left" timestamp="1590660216257">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1802" height="272" key="GridCell.Tab.0.left/0.0.1845.1080@0.0.1845.1080" timestamp="1590658958124" />
-    <state width="1802" height="272" key="GridCell.Tab.0.right" timestamp="1590658958124">
+    <state width="1802" height="272" key="GridCell.Tab.0.left/0.0.1845.1080@0.0.1845.1080" timestamp="1590660216257" />
+    <state width="1802" height="272" key="GridCell.Tab.0.right" timestamp="1590660216257">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1802" height="272" key="GridCell.Tab.0.right/0.0.1845.1080@0.0.1845.1080" timestamp="1590658958124" />
-    <state width="1240" height="295" key="GridCell.Tab.1.bottom" timestamp="1590658527233">
+    <state width="1802" height="272" key="GridCell.Tab.0.right/0.0.1845.1080@0.0.1845.1080" timestamp="1590660216257" />
+    <state width="1240" height="295" key="GridCell.Tab.1.bottom" timestamp="1590660020841">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1240" height="295" key="GridCell.Tab.1.bottom/0.0.1845.1080@0.0.1845.1080" timestamp="1590658527233" />
-    <state width="1240" height="295" key="GridCell.Tab.1.center" timestamp="1590658527233">
+    <state width="1240" height="295" key="GridCell.Tab.1.bottom/0.0.1845.1080@0.0.1845.1080" timestamp="1590660020841" />
+    <state width="1240" height="295" key="GridCell.Tab.1.center" timestamp="1590660020841">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1240" height="295" key="GridCell.Tab.1.center/0.0.1845.1080@0.0.1845.1080" timestamp="1590658527233" />
-    <state width="1240" height="295" key="GridCell.Tab.1.left" timestamp="1590658527233">
+    <state width="1240" height="295" key="GridCell.Tab.1.center/0.0.1845.1080@0.0.1845.1080" timestamp="1590660020841" />
+    <state width="1240" height="295" key="GridCell.Tab.1.left" timestamp="1590660020840">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1240" height="295" key="GridCell.Tab.1.left/0.0.1845.1080@0.0.1845.1080" timestamp="1590658527233" />
-    <state width="1240" height="295" key="GridCell.Tab.1.right" timestamp="1590658527233">
+    <state width="1240" height="295" key="GridCell.Tab.1.left/0.0.1845.1080@0.0.1845.1080" timestamp="1590660020840" />
+    <state width="1240" height="295" key="GridCell.Tab.1.right" timestamp="1590660020841">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1240" height="295" key="GridCell.Tab.1.right/0.0.1845.1080@0.0.1845.1080" timestamp="1590658527233" />
+    <state width="1240" height="295" key="GridCell.Tab.1.right/0.0.1845.1080@0.0.1845.1080" timestamp="1590660020841" />
     <state x="452" y="195" key="Maven.ArtifactSearchDialog" timestamp="1587710005201">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
