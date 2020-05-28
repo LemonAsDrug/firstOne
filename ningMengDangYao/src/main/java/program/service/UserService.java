@@ -13,8 +13,8 @@ public class UserService {
 
     public void create(String name,Integer age){
         user user = new user();
-        user.setName(name);
-        user.setAge(age);
+        user.setNick_name("wucunyang");
+        user.setHead_pic("http://att3.citysbs.com/200x200/hangzhou/2020/04/15/11/dd6719bd4287d9efd49434c43563a032_v2_.jpg");
         userMapper.insert(user);
     }
 

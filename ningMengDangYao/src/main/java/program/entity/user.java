@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class user {
 
-    String name;
+    String nick_name;
 
-    Integer age;
+    String head_pic;
 }
