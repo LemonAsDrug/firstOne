@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import program.utils.COSClientUtil;
-import program.utils_other.R;
+import program.utils.R;
 
 
 import java.util.HashMap;
