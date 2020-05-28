@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05b06324-9cff-4bc2-8dd8-4fcb2e99ea34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/program/config/CodeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/entity/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/entity/user.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/program/config/CorsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/program/config/GlobalCorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/api/AHelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/api/AHelloWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,23 +75,23 @@
     <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="utils.api" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="program.config" />
+      <recent name="program.api" />
+      <recent name="utils.extendAndImplement.control" />
+      <recent name="program.utils" />
+      <recent name="program.api.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea project\ningMengDangYao\src\main\java\program\service" />
       <recent name="D:\idea project\ningMengDangYao\src\main\java\program\order\alipay" />
       <recent name="D:\idea project\ningMengDangYao\src\main\java\program\order" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="program.api" />
-      <recent name="utils.extendAndImplement.control" />
-      <recent name="program.utils" />
-      <recent name="program.api.exception" />
-      <recent name="utils" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="utils.api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -104,7 +101,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MainApplication">
+  <component name="RunManager" selected="Application.CodeGenerator">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="program.config.CodeGenerator" />
+      <module name="ningMengDangYao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="program.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TimeStamp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="program.utils_other.TimeStamp" />
       <module name="ningMengDangYao" />
@@ -124,19 +134,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="program.utils_other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="program.utils_other.callback.test1" />
-      <module name="ningMengDangYao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeGenerator" />
         <item itemvalue="Spring Boot.MainApplication" />
         <item itemvalue="Spring Boot.MainApplication (1)" />
         <item itemvalue="Application.TimeStamp" />
         <item itemvalue="Application.test (1)" />
-        <item itemvalue="Application.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +190,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -248,7 +245,7 @@
       <workItem from="1589954192514" duration="4406000" />
       <workItem from="1590023559735" duration="760000" />
       <workItem from="1590132330283" duration="598000" />
-      <workItem from="1590653245430" duration="2175000" />
+      <workItem from="1590653245430" duration="4052000" />
     </task>
     <task id="LOCAL-00001" summary="v1">
       <created>1590131594673</created>
@@ -271,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590654977190</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="连接上了云数据库">
+      <created>1590657104472</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590657104472</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +285,8 @@
     <MESSAGE value="v1" />
     <MESSAGE value="v2" />
     <MESSAGE value="删除多余的内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除多余的内容" />
+    <MESSAGE value="连接上了云数据库" />
+    <option name="LAST_COMMIT_MESSAGE" value="连接上了云数据库" />
   </component>
   <component name="WindowStateProjectService">
     <state x="514" y="199" key="#Project_Structure" timestamp="1588143998881">
@@ -304,46 +309,46 @@
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
     <state x="677" y="401" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1845.1080@0.0.1845.1080" timestamp="1586944268160" />
-    <state x="483" y="132" key="CommitChangelistDialog2" timestamp="1590654975544">
+    <state x="483" y="132" key="CommitChangelistDialog2" timestamp="1590657102054">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state x="483" y="132" key="CommitChangelistDialog2/0.0.1845.1080@0.0.1845.1080" timestamp="1590654975544" />
+    <state x="483" y="132" key="CommitChangelistDialog2/0.0.1845.1080@0.0.1845.1080" timestamp="1590657102054" />
     <state x="1170" y="295" key="FileChooserDialogImpl" timestamp="1590037666469">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
     <state x="1170" y="295" key="FileChooserDialogImpl/0.0.1845.1080@0.0.1845.1080" timestamp="1590037666469" />
-    <state width="1240" height="295" key="GridCell.Tab.0.bottom" timestamp="1590657016114">
+    <state width="1802" height="272" key="GridCell.Tab.0.bottom" timestamp="1590658958124">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1240" height="295" key="GridCell.Tab.0.bottom/0.0.1845.1080@0.0.1845.1080" timestamp="1590657016114" />
-    <state width="1240" height="295" key="GridCell.Tab.0.center" timestamp="1590657016114">
+    <state width="1802" height="272" key="GridCell.Tab.0.bottom/0.0.1845.1080@0.0.1845.1080" timestamp="1590658958124" />
+    <state width="1802" height="272" key="GridCell.Tab.0.center" timestamp="1590658958124">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1240" height="295" key="GridCell.Tab.0.center/0.0.1845.1080@0.0.1845.1080" timestamp="1590657016114" />
-    <state width="1240" height="295" key="GridCell.Tab.0.left" timestamp="1590657016113">
+    <state width="1802" height="272" key="GridCell.Tab.0.center/0.0.1845.1080@0.0.1845.1080" timestamp="1590658958124" />
+    <state width="1802" height="272" key="GridCell.Tab.0.left" timestamp="1590658958124">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1240" height="295" key="GridCell.Tab.0.left/0.0.1845.1080@0.0.1845.1080" timestamp="1590657016113" />
-    <state width="1240" height="295" key="GridCell.Tab.0.right" timestamp="1590657016114">
+    <state width="1802" height="272" key="GridCell.Tab.0.left/0.0.1845.1080@0.0.1845.1080" timestamp="1590658958124" />
+    <state width="1802" height="272" key="GridCell.Tab.0.right" timestamp="1590658958124">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1240" height="295" key="GridCell.Tab.0.right/0.0.1845.1080@0.0.1845.1080" timestamp="1590657016114" />
-    <state width="1240" height="295" key="GridCell.Tab.1.bottom" timestamp="1590657016114">
+    <state width="1802" height="272" key="GridCell.Tab.0.right/0.0.1845.1080@0.0.1845.1080" timestamp="1590658958124" />
+    <state width="1240" height="295" key="GridCell.Tab.1.bottom" timestamp="1590658527233">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1240" height="295" key="GridCell.Tab.1.bottom/0.0.1845.1080@0.0.1845.1080" timestamp="1590657016114" />
-    <state width="1240" height="295" key="GridCell.Tab.1.center" timestamp="1590657016114">
+    <state width="1240" height="295" key="GridCell.Tab.1.bottom/0.0.1845.1080@0.0.1845.1080" timestamp="1590658527233" />
+    <state width="1240" height="295" key="GridCell.Tab.1.center" timestamp="1590658527233">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1240" height="295" key="GridCell.Tab.1.center/0.0.1845.1080@0.0.1845.1080" timestamp="1590657016114" />
-    <state width="1240" height="295" key="GridCell.Tab.1.left" timestamp="1590657016114">
+    <state width="1240" height="295" key="GridCell.Tab.1.center/0.0.1845.1080@0.0.1845.1080" timestamp="1590658527233" />
+    <state width="1240" height="295" key="GridCell.Tab.1.left" timestamp="1590658527233">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1240" height="295" key="GridCell.Tab.1.left/0.0.1845.1080@0.0.1845.1080" timestamp="1590657016114" />
-    <state width="1240" height="295" key="GridCell.Tab.1.right" timestamp="1590657016114">
+    <state width="1240" height="295" key="GridCell.Tab.1.left/0.0.1845.1080@0.0.1845.1080" timestamp="1590658527233" />
+    <state width="1240" height="295" key="GridCell.Tab.1.right" timestamp="1590658527233">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>
-    <state width="1240" height="295" key="GridCell.Tab.1.right/0.0.1845.1080@0.0.1845.1080" timestamp="1590657016114" />
+    <state width="1240" height="295" key="GridCell.Tab.1.right/0.0.1845.1080@0.0.1845.1080" timestamp="1590658527233" />
     <state x="452" y="195" key="Maven.ArtifactSearchDialog" timestamp="1587710005201">
       <screen x="0" y="0" width="1845" height="1080" />
     </state>

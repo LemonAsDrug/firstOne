@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/test")
 public class AHelloWorld {
 
-    //以下 都是以前spring mvc的功能
+    //以下是spring mvc的功能
     @ResponseBody //作用:把方法返回的"hello world"写给浏览器
     @RequestMapping("/hello") //作用：接受来自浏览器的hello请求  http://localhost:8080/hello 后的/hello就是hello请求
     public String hello(){
